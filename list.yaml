@@ -1,49 +1,35 @@
 payload:
-  # ==========================================
-  # ДОМЕНЫ
-  # ==========================================
-  
-  # Точное совпадение домена (без поддоменов)
-  # - DOMAIN,rutracker.org
-  
-  # Совпадение домена и ВСЕХ его поддоменов (самый нужный вариант)
-  # - DOMAIN-SUFFIX,twitter.com
-  # - DOMAIN-SUFFIX,x.com
-  
-  # Если в имени домена есть определенное слово 
-  # (осторожно, может зацепить лишнее, например my-google-search.com)
-  # - DOMAIN-KEYWORD,google
-  
-  # Регулярное выражение (сложная маска домена)
-  # (например, всё, что содержит слово netflix)
-  # - DOMAIN-REGEX,^.*netflix.*$
-
-  # ==========================================
-  # IP-АДРЕСА И ДИАПАЗОНЫ
-  # ==========================================
-  
-  # Конкретный IP-адрес IPv4 (обязательно писать /32 на конце)
-  # - IP-CIDR,1.1.1.1/32
-  # - IP-CIDR,8.8.8.8/32
-  
-  # Целая подсеть (диапазон) IPv4-адресов
-  # - IP-CIDR,192.168.0.0/16
-  # - IP-CIDR,10.0.0.0/8
-  
-  # IPv6 адреса (конкретный адрес или подсеть)
-  # - IP-CIDR6,2606:4700::1/128
-  
-  # Привязка к номеру ASN (автономной системы провайдера)
-  # (например, так можно завернуть сразу все сервера Telegram)
-  # - IP-ASN,59930
-
-  # ==========================================
-  # ПОРТЫ
-  # ==========================================
-  
-  # Все запросы, идущие на определенный порт (например, нестандартный SSH)
-  # - DST-PORT,2222
-  
-  # Все запросы с определенного внутреннего порта устройства
-  # - SRC-PORT,7777
-- DOMAIN,2ip.ru
+- DOMAIN-SUFFIX,codeassist.google
+- DOMAIN-SUFFIX,cursor-cdn.com
+- DOMAIN-SUFFIX,cursor.sh
+- DOMAIN-SUFFIX,cursorapi.com
+- DOMAIN-SUFFIX,digitalocean-ui.com
+- DOMAIN-SUFFIX,digitalocean.com
+- DOMAIN-SUFFIX,elevenlabs.io
+- DOMAIN-SUFFIX,itsalin.com
+- DOMAIN-SUFFIX,kimi.com
+- DOMAIN-SUFFIX,kimi.link
+- DOMAIN-SUFFIX,ledger.com
+- DOMAIN-SUFFIX,moonshot.cn
+- DOMAIN-SUFFIX,obsidian.md
+- DOMAIN-SUFFIX,openrouter.ai
+- DOMAIN-SUFFIX,posthog.com
+- DOMAIN-SUFFIX,redotpay.com
+- DOMAIN-SUFFIX,rp-2023app.com
+- DOMAIN-SUFFIX,soniox.com
+- DOMAIN-SUFFIX,spokenly.app
+- DOMAIN-SUFFIX,stripe.com
+- DOMAIN-SUFFIX,stripe.dev
+- DOMAIN-SUFFIX,stripeassets.com
+- DOMAIN-SUFFIX,stripecdn.com
+- DOMAIN-SUFFIX,stripesessions.com
+- DOMAIN-SUFFIX,supabase.co
+- DOMAIN-SUFFIX,supabase.com
+- DOMAIN-SUFFIX,variant.com
+- DOMAIN-SUFFIX,vercel-storage.com
+- DOMAIN-SUFFIX,vercel.com
+- DOMAIN-SUFFIX,vscode.dev
+- DOMAIN-SUFFIX,warp.dev
+- DOMAIN-SUFFIX,wisprflow.ai
+- DOMAIN-SUFFIX,workos.com
+- DOMAIN-SUFFIX,worksinprogress.co
